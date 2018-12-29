@@ -1,0 +1,5 @@
+## Mockito postfixes ##
+
+.mockito-when : log debug message
+    ANY    [org.mockito.Mockito] → when($expr$).thenReturn($complete()$)
+
